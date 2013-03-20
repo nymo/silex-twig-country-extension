@@ -5,11 +5,13 @@
     "authors": [
         {
             "name": "Gregor Panek",
+            "homepage": "http://www.gregorpanek.de",
+            "email": "gp@gregorpanek.de",
             "role": "Developer"
         }
     ],
-    "description": "Twig country extension for silex",
-    "keywords": ["silex", "twig", "country", "extension"],
+    "description": "Twig country filter extension for silex",
+    "keywords": ["silex", "twig", "country", "extension","filter"],
     "homepage": "http://github.com/nymo/silex-twig-country-extension",
     "require": {
         "php": ">=5.3.0"
@@ -17,12 +19,7 @@
     "require-dev": {
         "silex/silex": "1.0.*@dev",
         "twig/twig": ">=1.8.0,<2.0-dev",
-        "symfony/form": "~2.1.4",
-        "symfony/locale": "~2.1",
-        "symfony/config": "2.1.6",
-        "symfony/translation": "2.1.6",
-        "symfony/twig-bridge": "2.1.6",
-        "symfony/validator": "2.1.*"
+        "symfony/locale": "~2.1"
 
     },
     "autoload": {
