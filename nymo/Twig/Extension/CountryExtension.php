@@ -30,8 +30,11 @@ class CountryExtension extends \Twig_Extension{
     /**
      * @return array
      */
-    public function getFunctions(){
-        return array('country' => new \Twig_Function_Method($this,'country'));
+    public function getFilters()
+    {
+        return array(
+            'country' => new \Twig_Filter_Method($this,'country')
+        );
     }
 
     /**
