@@ -14,13 +14,12 @@
     "keywords": ["silex", "twig", "country", "extension","filter"],
     "homepage": "http://github.com/nymo/silex-twig-country-extension",
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.0",
+        "symfony/locale": "~2.3"
     },
     "require-dev": {
-        "silex/silex": "1.0.*@dev",
-        "twig/twig": ">=1.8.0,<2.0-dev",
-        "symfony/locale": "~2.1"
-
+        "silex/silex": "~1.1",
+        "twig/twig": "~1.15"
     },
     "autoload": {
         "psr-0": {
