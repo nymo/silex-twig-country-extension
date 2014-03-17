@@ -1,19 +1,31 @@
 <?php
 /**
- * User: nymo
- * Date: 20.03.13
- * Time: 10:08
+ * This file is part of silex-twig-breadcrumb-extension
+ *
+ * (c) 2013 Gregor Panek
  */
 namespace nymo\Twig\Extension;
+
 use Symfony\Component\Locale\Locale;
-class CountryExtension extends \Twig_Extension{
+
+/**
+ * Class CountryExtension
+ * @package nymo\Twig\Extension
+ * @author Gregor Panek <gp@gregorpanek.de>
+ */
+class CountryExtension extends \Twig_Extension
+{
 
     /**
      * @var \Silex\Application
      */
     protected $app;
 
-    public function __construct(\Silex\Application $app){
+    /**
+     * @param \Silex\Application $app
+     */
+    public function __construct(\Silex\Application $app)
+    {
         $this->app = $app;
     }
 
@@ -33,7 +45,7 @@ class CountryExtension extends \Twig_Extension{
     public function getFilters()
     {
         return array(
-            'country' => new \Twig_Filter_Method($this,'country')
+            'country' => new \Twig_Filter_Method($this, 'country')
         );
     }
 
@@ -41,7 +53,8 @@ class CountryExtension extends \Twig_Extension{
      * @param $key
      * @return mixed
      */
-    public function country($key){
+    public function country($key)
+    {
         $countries = Locale::getDisplayCountries($this->app['locale']);
         return $countries[$key];
     }

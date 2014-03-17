@@ -1,14 +1,10 @@
 ## Twig filter country extension for Silex
-```
 This extension provides a filter for your twig template to receive a full country name for a given country key.
 The translation of the country name is based on your current locale which is configured in Silex.
 The Country key is based on the Symfony 2 country form type.
-```
 
 ### Requirements
-```
-Obviously Silex and Twig
-```
+This extension was created for Silex and Twig Template Engine
 
 ### Installation
 
