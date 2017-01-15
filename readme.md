@@ -1,3 +1,8 @@
+[![Packagist](https://img.shields.io/packagist/v/nymo/silex-twig-country-extension.svg)](https://packagist.org/packages/nymo/silex-twig-country-extension)
+[![Monthly Downloads](https://poser.pugx.org/nymo/silex-twig-country-extension/d/monthly)](https://packagist.org/packages/nymo/silex-twig-country-extension)
+[![Build Status](https://travis-ci.org/nymo/silex-twig-country-extension.svg?branch=master)](https://travis-ci.org/nymo/silex-twig-country-extension)
+[![Coverage Status](https://coveralls.io/repos/github/nymo/silex-twig-country-extension/badge.svg)](https://coveralls.io/github/nymo/silex-twig-country-extension)
+
 ## Twig filter country extension for Silex
 This is an extension for Twig for use in Silex if you use forms with a country choice list from Symfony 2.
 The Symfony 2 form saves each country from the choice list with a two letter country code. In order to display
