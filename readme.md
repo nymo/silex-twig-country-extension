@@ -1,3 +1,6 @@
+# This extension is archived. No further development happens here. If you like to take this over please contact me.
+
+
 [![Packagist](https://img.shields.io/packagist/v/nymo/silex-twig-country-extension.svg)](https://packagist.org/packages/nymo/silex-twig-country-extension)
 [![Monthly Downloads](https://poser.pugx.org/nymo/silex-twig-country-extension/d/monthly)](https://packagist.org/packages/nymo/silex-twig-country-extension)
 [![Build Status](https://travis-ci.org/nymo/silex-twig-country-extension.svg?branch=master)](https://travis-ci.org/nymo/silex-twig-country-extension)
